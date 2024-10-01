@@ -1,0 +1,25 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 6vh;
+    width: 100vw;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: var(--cor-fundo);
+    padding: 30px 25px 15px;
+    width: 100%;
+    z-index: 10;
+}
+
+a {
+    font-family: "Poppins";
+    color: var(--branco);
+    text-decoration: none;
+}

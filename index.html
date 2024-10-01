@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="" alt="Logo">
+            <button class="btn-menu" onclick="mostraMenu()">
+                <span class="linha"></span>
+                <span class="linha"></span>
+                <span class="linha"></span>
+            </button>
+        </nav>
+        <div id="menuH" class="menu-hamburguer">
+            <ul class="lista_menu">
+                <li><a onclick="mostraMenu()" href="#inicio">INICIO</a></li>
+                <li><a onclick="mostraMenu()" href="#sobre">SOBRE</a></li>
+                <li><a onclick="mostraMenu()" href="#servicos">SERVIÇOS</a></li>
+                <li><a onclick="mostraMenu()" href="#projetos">PROJETOS</a></li>
+                <li><a onclick="mostraMenu()" href="#contato">CONTATO</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <h1>Bem vindo(a)!</h1>
+        <h2>Contando um pouco da empresa</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus tempore dignissimos cupiditate mollitia
+            repudiandae, doloremque, veniam explicabo provident sint recusandae id possimus dolorem consequatur maiores
+            corrupti repellat eius reiciendis ea!</p>
+    </main>
+    <section class="container_inicio">
+        <h2 id="inicio">INICIO</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui alias numquam, ea temporibus fuga praesentium
+            nihil autem nemo veniam quos vel consequuntur sunt unde, nisi dolorum nam odit! Harum, officia?</p>
+    </section>
+    <section class="container_sobre">
+        <h2 id="sobre">SOBRE</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, consectetur, aperiam eveniet ut molestiae
+            dolorum tempora rem illum eligendi porro magni dolores tenetur ad quae qui, assumenda facilis neque
+            obcaecati.</p>
+    </section>
+    <section class="container_servicos">
+        <h2 id="servicos">SERVIÇOS</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, beatae. Et quibusdam totam vero unde, in
+            officia harum amet labore, sint inventore, odit ipsam id soluta temporibus recusandae facere voluptatibus.
+        </p>
+    </section>
+    <section class="container_projetos">
+        <div class="esquerda">
+            <h2 id="projetos">PROJETOS</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo saepe laboriosam culpa! Optio fugiat
+                ratione
+                ullam aliquid consequatur ipsam maxime nam, quod, corporis nulla mollitia deleniti, reiciendis incidunt
+                odio
+                fugit.</p>
+        </div>
+        <div class="direita">
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/cindra/imagens/sem.jpg.gif" alt="Imagem">
+                </div>
+                <div class="card-textos">
+                    <h3>Projeto 1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti nihil aliquid cupiditate alias at tempora explicabo id, consequuntur labore commodi incidunt odio! Aliquid accusamus unde ab similique ex totam consequuntur.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/cindra/imagens/sem.jpg.gif" alt="Imagem">
+                </div>
+                <div class="card-textos">
+                    <h3>Projeto 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste architecto illum earum tempora doloribus aut illo quisquam laborum voluptate. Repellendus sit perferendis quaerat, sed saepe eos totam rem dolorum nemo.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/cindra/imagens/sem.jpg.gif" alt="Imagem">
+                </div>
+                <div class="card-textos">
+                    <h3>Projeto 3</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et impedit aliquid unde recusandae dolore aliquam sint asperiores voluptates quos veritatis! Magni soluta quibusdam nesciunt suscipit? Maxime est tempore laudantium ab?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container_contato">
+        <h2 id="contato">CONTATO</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, iure? Cum dolorem illo consectetur
+            necessitatibus vitae laborum fugit tempore fuga commodi nihil magnam facilis et nobis iste, reprehenderit,
+            doloremque totam.</p>
+        <form action="">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" placeholder="Digite seu nome">
+            <label for="email">Email</label>
+            <input type="text" name="email" placeholder="Digite seu email">
+            <label for="telefone">Número de telefone</label>
+            <input type="text" name="telefone" placeholder="(11) 99999-9999">
+            <label for="texto">Mensagem</label>
+            <textarea maxlength="255" name="texto" id="areatexto" placeholder="Digite sua mensagem"></textarea>
+        </form>
+    </section>
+    <footer>
+        <div class="container_footer">
+            <div class="esquerda">
+                <h3>Informações de contato</h3>
+                <ul class="lista_contato">
+                    <li>Email</li>
+                    <li>Telefone</li>
+                </ul>
+            </div>
+            <div class="meio">
+                <h3>Algo ai man</h3>
+                <ul class="lista_contato">
+                    <li>algo ai man</li>
+                    <li>algo ai man</li>
+                    <li>algo ai man</li>
+                    <li>algo ai man</li>
+                </ul>
+            </div>
+            <div class="direita">
+                <h3>Redes sociais</h3>
+                <ul class="lista_contato">
+                    <li>LinkedIn</li>
+                    <li>Instagram</li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+    <script src="./src/js/script.js"></script>
+</body>
+
+</html>

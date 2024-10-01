@@ -1,0 +1,49 @@
+.visivel {
+    margin-top: 125px;
+}
+
+.btn-menu {
+    background-color: transparent;
+    border: none;
+}
+
+.linha {
+    width: 50px;
+    height: 2px;
+    background-color: white;
+    display: block;
+    margin: 10px auto;
+    transform-origin: center;
+    position: relative;
+    transition: .2s;
+}
+
+.menu-hamburguer {
+    display: flex;
+    top: -60px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: var(--cor-fundo);
+    width: 100%;
+    transition: all 0.4s ease-in-out;
+}
+
+
+.lista_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+}
+
+button.ativar .linha:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+button.ativar .linha:nth-child(3) {
+    transform: translateY(-16px) rotate(-45deg);
+}
+button.ativar .linha:nth-child(2) {
+    width: 0;
+}
