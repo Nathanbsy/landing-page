@@ -1,5 +1,5 @@
 .visivel {
-    margin-top: 125px;
+    margin-top: 225px;
 }
 
 .btn-menu {
@@ -20,12 +20,13 @@
 
 .menu-hamburguer {
     display: flex;
-    top: -60px;
+    top: -155px;
     justify-content: center;
     align-items: center;
     position: fixed;
     background-color: var(--cor-fundo);
     width: 100%;
+    padding: 0 1rem;
     transition: all 0.4s ease-in-out;
 }
 
@@ -35,7 +36,12 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 300px;
+    row-gap: 12px;
+    margin-bottom: 12px;
+}
+
+.lista_menu a {
+    font-size: 22px;
 }
 
 button.ativar .linha:nth-child(1) {
