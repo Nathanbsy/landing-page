@@ -169,15 +169,19 @@
                     necessitatibus vitae laborum fugit tempore fuga commodi nihil magnam facilis et nobis iste,
                     reprehenderit,
                     doloremque totam.</p>
-                <form action="" data-aos="fade-up" data-aos-delay="400">
+                <form data-aos="fade-up" data-aos-delay="400">
                     <label for="nome">Nome</label>
-                    <input type="text" name="nome" placeholder="Digite seu nome">
+                    <input type="text" name="nome" required placeholder="Digite seu nome">
                     <label for="email">Email</label>
-                    <input type="text" name="email" placeholder="Digite seu email">
+                    <input type="text" name="email" required placeholder="Digite seu email">
                     <label for="telefone">Número de telefone</label>
                     <input type="text" name="telefone" placeholder="(11) 99999-9999">
                     <label for="texto">Mensagem</label>
                     <textarea maxlength="200" name="texto" id="areatexto" placeholder="Digite sua mensagem"></textarea>
+                    <input type="hidden" name="_captcha" value="true">
+                    <div class="container-botao">
+                        <button class="btn-form" type="submit">Enviar</button>
+                    </div>
                 </form>
             </div>
         </div>
