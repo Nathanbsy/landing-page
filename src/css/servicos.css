@@ -2,9 +2,9 @@
    display: flex;
    justify-content: center;
    align-items: center;
-   flex-direction: column;
    width: 100%;
    height: 100vh;
+   padding: 2rem 1rem;
 }
 
 .container_servicos {
@@ -13,7 +13,27 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
-    height: 100%;
+    height: 100%;  
+}
+
+.head_servicos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+}
+
+.servicos_descricao {
+    width: 50%;
+}
+
+.servicos_texto {
+    width: 20%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .lista {
@@ -24,14 +44,28 @@
     gap: 50px;
 }
 
-.lista li {
+.card-servico {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    width: 350px;
+    width: 550px;
     height: 80px;
     font-size: 28px;
     padding: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.35);
     border-radius: 180px;
+}
+
+.card-servico-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 180px;
+    width: 100px;
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.35);
+}
+
+.margem {
+    margin-left: 3rem;
 }

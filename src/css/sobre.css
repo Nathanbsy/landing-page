@@ -3,14 +3,25 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100vh;
+    height: 90vh;
+    
 }
 
 .container_sobre {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     width: 100%;
     height: 100%;
+    padding: 0 30vh;
+}
+
+.sobre_img {
+    padding: 75px;
+    background-color: #1f1f1f;
+    border-radius: 50%;
+}
+
+.sobre_img img {
+    width: 400px;
 }

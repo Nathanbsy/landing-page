@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <title>Landing Page</title>
 </head>
 
@@ -39,33 +41,70 @@
     </main>
     <section id="sobre" class="sobre">
         <div class="container_sobre">
-            <h2 class="container_titulo">SOBRE</h2>
-            <p class="container_texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, consectetur, aperiam
+            <div class="sobre_textos" data-aos="fade-right" data-aos-duration="1000">
+                <h2 class="container_titulo">SOBRE</h2>
+                <p class="container_texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, consectetur, aperiam
             eveniet ut molestiae
             dolorum tempora rem illum eligendi porro magni dolores tenetur ad quae qui, assumenda facilis neque
             obcaecati. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium amet molestias, neque quia earum optio consequatur magnam assumenda sapiente magni esse iste, et a sit nesciunt dolorem minus, hic recusandae!</p>
+            </div>
+            <div class="sobre_img" data-aos="fade-left" data-aos-duration="1000">
+                <img src="./src/img/imagem-placeholder.png" alt="image">
+            </div>
         </div>
     </section>
     <section id="servicos" class="servicos">
         <div class="container_servicos">
-            <div class="esquerda_servicos">
-                <h2 class="container_titulo">SERVIÇOS</h2>
-                <p class="container_texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, beatae. Et
-                    quibusdam totam vero unde,
-                    in
-                    officia harum amet labore, sint inventore, odit ipsam id soluta temporibus recusandae facere
-                    voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, ipsa explicabo, architecto
-                    eius, incidunt voluptatem officia rerum quam aspernatur in placeat corporis ab consequatur non ex
-                    tenetur dicta quisquam numquam?
-                </p>
+            <div class="head_servicos" data-aos="fade-up" data-aos-duration="1000">
+                <div class="servicos_texto">
+                    <h2 class="container_titulo">SERVIÇOS</h2>
+                </div>
+                <div class="servicos_descricao" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                    <p class="container_texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, beatae. Et
+                        quibusdam totam vero unde.
+                    </p>
+                </div>
             </div>
             <div class="direita_servicos">
-                <ul class="lista">
-                    <li>Tipo de serviço 1</li>
-                    <li>Tipo de serviço 2</li>
-                    <li>Tipo de serviço 3</li>
-                    <li>Tipo de serviço 4</li>
-                </ul>
+                <div class="lista">
+                    <!-- Primeiro Serviço -->
+                    <div class="card-servico margem" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
+                        <div class="card-servico-texto">
+                            <h3>Tipo de servico 1</h3>
+                        </div>
+                        <div class="card-servico-icon">
+                            <i class="bi bi-share"></i>
+                        </div>
+                    </div>
+                    <!-- Segundo Serviço -->
+                    <div class="card-servico">
+                        <div class="card-servico-texto" data-aos="fade-left" data-aos-delay="400" data-aos-duration="1000">
+                            <h3>Tipo de servico 2</h3>
+                        </div>
+                        <div class="card-servico-icon">
+                            <i class="bi bi-diagram-3"></i>
+                        </div>
+                    </div>
+                    <!-- Terceiro Serviço -->
+                    <div class="card-servico margem" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000">
+                        <div class="card-servico-texto">
+                            <h3>Tipo de servico 3</h3>
+                        </div>
+                        <div class="card-servico-icon">
+                            <i class="bi bi-globe"></i>
+                        </div>
+                    </div>
+                    <!-- Quarto Serviço -->
+                    <div class="card-servico" data-aos="fade-left" data-aos-delay="600" data-aos-duration="1000">
+                        <div class="card-servico-texto">
+                            <h3>Tipo de servico 4</h3>
+                        </div>
+                        <div class="card-servico-icon">
+                            <i class="bi bi-currency-dollar"></i>
+                        </div>
+                    </div>
+
+                </div>
             </div>
             
         </div>
@@ -82,37 +121,37 @@
                     fugit.</p>
             </div>
             <div class="direita">
-                <div class="card">
+                <div class="card" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
                     <div class="card-img">
                         <img src="https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/cindra/imagens/sem.jpg.gif"
                             alt="Imagem">
                     </div>
                     <div class="card-textos">
-                        <h3>Projeto 1</h3>
+                        <h3>Cliente 1</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti nihil aliquid cupiditate alias
                             at tempora explicabo id, consequuntur labore commodi incidunt odio! Aliquid accusamus unde ab
                             similique ex totam consequuntur.</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
                     <div class="card-img">
                         <img src="https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/cindra/imagens/sem.jpg.gif"
                             alt="Imagem">
                     </div>
                     <div class="card-textos">
-                        <h3>Projeto 2</h3>
+                        <h3>Cliente 2</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste architecto illum earum tempora
                             doloribus aut illo quisquam laborum voluptate. Repellendus sit perferendis quaerat, sed saepe
                             eos totam rem dolorum nemo.</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
                     <div class="card-img">
                         <img src="https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/cindra/imagens/sem.jpg.gif"
                             alt="Imagem">
                     </div>
                     <div class="card-textos">
-                        <h3>Projeto 3</h3>
+                        <h3>Cliente 3</h3>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et impedit aliquid unde recusandae
                             dolore aliquam sint asperiores voluptates quos veritatis! Magni soluta quibusdam nesciunt
                             suscipit? Maxime est tempore laudantium ab?</p>
@@ -122,23 +161,25 @@
         </div>
     </section>
     <section id="contato" class="contato">
-        <div class="container_contato">
-            <h2 class="container_titulo">CONTATO</h2>
-            <p class="container_texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, iure? Cum dolorem
-                illo consectetur
-                necessitatibus vitae laborum fugit tempore fuga commodi nihil magnam facilis et nobis iste,
-                reprehenderit,
-                doloremque totam.</p>
-            <form action="">
-                <label for="nome">Nome</label>
-                <input type="text" name="nome" placeholder="Digite seu nome">
-                <label for="email">Email</label>
-                <input type="text" name="email" placeholder="Digite seu email">
-                <label for="telefone">Número de telefone</label>
-                <input type="text" name="telefone" placeholder="(11) 99999-9999">
-                <label for="texto">Mensagem</label>
-                <textarea maxlength="200" name="texto" id="areatexto" placeholder="Digite sua mensagem"></textarea>
-            </form>
+        <div class="container_contato" data-aos="fade-up" data-aos-duration="1000">
+            <div class="contato-center" data-aos="fade-up" data-aos-delay="200">
+                <h2 class="container_titulo">CONTATO</h2>
+                <p class="container_texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, iure? Cum dolorem
+                    illo consectetur
+                    necessitatibus vitae laborum fugit tempore fuga commodi nihil magnam facilis et nobis iste,
+                    reprehenderit,
+                    doloremque totam.</p>
+                <form action="" data-aos="fade-up" data-aos-delay="400">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" placeholder="Digite seu nome">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" placeholder="Digite seu email">
+                    <label for="telefone">Número de telefone</label>
+                    <input type="text" name="telefone" placeholder="(11) 99999-9999">
+                    <label for="texto">Mensagem</label>
+                    <textarea maxlength="200" name="texto" id="areatexto" placeholder="Digite sua mensagem"></textarea>
+                </form>
+            </div>
         </div>
 
     </section>
@@ -170,7 +211,15 @@
         </div>
 
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Inicialização do AOS -->
+    <script>
+        AOS.init();
+    </script>
     <script src="./src/js/script.js"></script>
+    
 </body>
 
 </html>

@@ -27,6 +27,7 @@
     background-color: var(--cor-fundo);
     width: 100%;
     padding: 0 1rem;
+    z-index: 1;
     transition: all 0.4s ease-in-out;
 }
 
